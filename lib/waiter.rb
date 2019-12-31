@@ -15,7 +15,7 @@ class Waiter
   end
 
   def new_meal(name, years_of_exp)
-    Meal.new(self, name, years_of_exp)
+    Meal.new(name, years_of_exp)
   end
 
 
